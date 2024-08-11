@@ -104,13 +104,13 @@ main {
 }
 
 .button {
-    width: 23.4%;
+    width: 23.4%; 
     padding: 3%;
     border: 2px solid #666;
     border-radius: 5px;
     font-size: clamp(5px, 0, 1rem);
     font-weight: 600;
-    color: 3a444d;
+    color: #3a444d; 
     background-color: #e9e5e5;
     box-shadow: -2px 3px 0 #888, -3px 3px 0 #222;
 }
@@ -133,4 +133,17 @@ main {
 .btn-shiny:active {
     box-shadow: inset -4px 4px 0 #888;
     font-size: .9rem;
+}
+
+@media (max-width: 600px) {
+    .button {
+        width: 90% !important; /* Força o tamanho */
+        padding: 10px !important; /* Força o padding */
+        font-size: 1.2rem !important; /* Força o tamanho da fonte */
+    }
+
+    .btn-shiny {
+        width: 15%; /* Ajuste para o botão shiny também */
+        top: 70%; /* Ajuste a posição se precisar */
+    }
 }
