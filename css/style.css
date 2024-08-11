@@ -1,0 +1,136 @@
+@import "https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    text-align: center;
+    background-image: url(../imagens/wp11378121.webp);
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 530px;
+    height: auto; /* Adicionada para tornar a imagem responsiva */
+}
+
+.pokemon__image {
+    position: absolute;
+    bottom: 47%;
+    left: 29%;
+    transform: translate(-63%, 20%);
+    max-width: 100%; /* Adicionada para tornar a imagem responsiva */
+    height: auto; /* Adicionada para manter a proporção da imagem */
+}
+
+.pokemon__data {
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 60.5%;
+    right: 60%;
+    font-size: clamp(6px, 3vw, 20px);
+}
+
+.pokemon__name {
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.pokemon__type-1 {
+    background-color: #222;
+    color: #fff;
+    position: absolute;
+    left: 59.9%;
+    top: 81%;
+    gap: 10px;
+    width: 13.5%;
+    border: 2px solid #363535;
+    border-radius: 2px;
+    box-shadow: -1px 1px 0 #1a1919;
+}
+
+.pokemon__type-2 {
+    background-color: #222;
+    color: #fff;
+    position: absolute;
+    right: 9.5%;
+    top: 81%;
+    gap: 10px;
+    width: 13.5%;
+    border: 2px solid #363535;
+    border-radius: 2px;
+    box-shadow: -1px 1px 0 #1a1919;
+}
+
+.form {
+    position: absolute;
+    width: 20%;
+    top: 70%;
+    left: 16%;
+}
+
+.input__search {
+    width: 144%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #666;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: #3a444d;
+    box-shadow: -2px 2.5px 0 #888;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 11%;
+    left: 14%;
+    width: 65%;
+    transform: translate(-57, 0);
+    display: flex;
+    gap: 7px;
+}
+
+.button {
+    width: 23.4%;
+    padding: 3%;
+    border: 2px solid #666;
+    border-radius: 5px;
+    font-size: clamp(5px, 0, 1rem);
+    font-weight: 600;
+    color: 3a444d;
+    background-color: #e9e5e5;
+    box-shadow: -2px 3px 0 #888, -3px 3px 0 #222;
+}
+
+.button:active {
+    box-shadow: inset -4px 4px 0 #888;
+    font-size: .9rem;
+}
+
+.btn-shiny {
+    position: absolute;
+    left: 86.7%;
+    top: 73.5%;
+    border-radius: 15px;
+    width: 4%;
+    font-weight: 900;
+    color: #000;
+}
+
+.btn-shiny:active {
+    box-shadow: inset -4px 4px 0 #888;
+    font-size: .9rem;
+}
