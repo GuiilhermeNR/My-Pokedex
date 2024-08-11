@@ -137,13 +137,14 @@ main {
 
 @media (max-width: 600px) {
     .button {
-        width: 90% !important; /* Força o tamanho */
-        padding: 10px !important; /* Força o padding */
+        width: 23.8% !important; /* Força o tamanho */
+        padding: 6.8px !important; /* Força o padding */
         font-size: 1.2rem !important; /* Força o tamanho da fonte */
     }
 
     .btn-shiny {
-        width: 15%; /* Ajuste para o botão shiny também */
-        top: 70%; /* Ajuste a posição se precisar */
+        width: 4%; 
+        top: 73%;
+        left: 86.5%;
     }
 }
